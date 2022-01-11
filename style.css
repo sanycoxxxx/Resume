@@ -1,0 +1,99 @@
+
+ body {
+   
+   background: rgb(243, 242, 242);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.myFirstClass {
+    max-width: 300px;
+    border-radius: 29px;
+    box-shadow: 4px 4px 16px rgba(red, green, rgb(45, 45, 46), alpha);
+}
+
+.info {
+    color: #86898f;
+    margin: 0;
+    font-size: 18px;
+}
+/* 
+.container {
+    max-width: 50%;
+    background: seagreen;
+    padding: 5px 10px 15px 20px;
+    border: 10px solid blue;
+    margin: 23px;
+} */
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red
+}
+
+.bgy{
+    background: rgb(255, 251, 232);
+}
+.bgr{
+    background: rgb(255, 226, 226);
+}
+.bgb {
+    background: rgb(212, 225, 253);
+}
+.bgg {
+    background: rgb(232, 252, 214);
+}
+.card {
+    max-width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: rgb(102, 101, 101);
+    margin-bottom: 10px;
+    
+}
+.table {
+   width: 100%;
+
+}
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(3) {
+    color:rgb(100, 100, 100)
+}
+.link-style {
+    list-style: square ;
+}
+.link-style li {
+    margin-bottom:  10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid sienna;
+}
+.contact {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+}
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+
+}
